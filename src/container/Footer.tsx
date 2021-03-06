@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import Image from "next/image";
+// import Image from "next/image";
 
 import {
     Box,
@@ -16,7 +16,7 @@ const Footer: React.FC = () => (
             <Box component={Grid} container item p={4} style={{ background: "#222" }} xs={12}>
                 <Grid component={Link} container href="https://blackisland.io" item spacing={2} style={{ color: "white", textDecoration: "unset" }} xs={6}>
                     <Grid item>
-                        <Image
+                        <img
                             alt="Black Island Studio"
                             height={100}
                             src="/logo-white.png"

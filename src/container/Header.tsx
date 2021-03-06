@@ -82,7 +82,7 @@ class Header extends React.Component<{}, IState> {
                                 <a style={{ textDecoration: "unset", color: "unset" }}>
                                     <Grid container spacing={2}>
                                         <Grid item style={{ width: "36px" }}>
-                                            <Image alt="Syntien" height="20" src="/syntien/logo.png" width="20" />
+                                            <img alt="Syntien" height="20" src="/syntien/logo.png" width="20" />
                                         </Grid>
                                         <Grid item style={{ width: "calc(100% - 36px)" }}>
                                             <Typography>Syntien</Typography>
@@ -96,7 +96,7 @@ class Header extends React.Component<{}, IState> {
                                 <a style={{ textDecoration: "unset", color: "unset" }}>
                                     <Grid container spacing={2}>
                                         <Grid item style={{ width: "36px" }}>
-                                            <Image alt="Keyboard Keyboard" height="20" src="/keyboard-keyboard/logo.png" width="20" />
+                                            <img alt="Keyboard Keyboard" height="20" src="/keyboard-keyboard/logo.png" width="20" />
                                         </Grid>
                                         <Grid item style={{ width: "calc(100% - 36px)" }}>
                                             <Typography>Keyboard Keyboard</Typography>

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import Image from "next/image";
+// import Image from "next/image";
 
 import {
     Box,
@@ -40,7 +40,7 @@ const Syntien: React.FC = () => (
                     <Link
                         href="https://itunes.apple.com/us/app/keyboard-keyboard/id1128271725?ls=1&amp;mt=12"
                     >
-                        <Image
+                        <img
                             alt="Download on the App Store"
                             height={40}
                             src="/app-store.svg"
