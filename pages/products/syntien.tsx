@@ -38,7 +38,7 @@ const Syntien: React.FC = () => (
                 </Grid>
                 <Grid item sm={6} style={{ marginTop: "auto", marginBottom: "auto" }} xs={12}>
                     <Link
-                        href="https://itunes.apple.com/us/app/keyboard-keyboard/id1128271725?ls=1&amp;mt=12"
+                        href="https://apps.apple.com/us/app/syntien/id1203153534"
                     >
                         <img
                             alt="Download on the App Store"
