@@ -45,7 +45,7 @@ class Header extends React.Component<{}, IState> {
                         <a style={{ textDecoration: "unset" }}>
                             <Grid container>
                                 <Grid item>
-                                    <Image
+                                    <img
                                         alt="Black Island Studios"
                                         height="56"
                                         src="/logo-white.png"
