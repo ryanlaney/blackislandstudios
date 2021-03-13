@@ -157,10 +157,10 @@ class Header extends React.Component<{}, IState> {
                                         key={link.title}
                                     >
                                         <Link href={link.href}>
-                                            <a style={{ textDecoration: "unset", color: "white" }}>
+                                            <a style={{ textDecoration: "unset" }}>
                                                 <Grid container spacing={2}>
                                                     <Grid item style={{ width: "calc(100% - 36px)" }}>
-                                                        <Typography>{link.title}</Typography>
+                                                        <Typography style={{ color: "white" }}>{link.title}</Typography>
                                                     </Grid>
                                                 </Grid>
                                             </a>
