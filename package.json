@@ -1,5 +1,5 @@
 {
-		"name": "blackislandaudio",
+		"name": "blackislandstudios",
 		"version": "1.0.0",
 		"devDependencies": {
 				"@babel/cli": "^7.13.0",
@@ -12,6 +12,7 @@
 				"@babel/preset-react": "^7.12.13",
 				"@babel/preset-typescript": "^7.13.0",
 				"@babel/register": "^7.13.0",
+				"@types/styled-components": "^5.1.8",
 				"@typescript-eslint/eslint-plugin": "^4.15.2",
 				"@typescript-eslint/parser": "^4.15.2",
 				"babel-eslint": "^10.1.0",
@@ -43,12 +44,12 @@
 				"@types/react": "^16.14.4",
 				"@types/react-dom": "^16.9.11",
 				"@types/react-helmet": "^6.1.0",
-				"@types/styled-components": "^5.1.7",
 				"next": "latest",
 				"next-compose-plugins": "^2.2.1",
 				"next-transpile-modules": "^6.3.0",
 				"react": "latest",
-				"react-dom": "latest"
+				"react-dom": "latest",
+				"styled-components": "^5.2.1"
 		},
 		"scripts": {
 				"dev": "tsc --watch --noEmit & next",

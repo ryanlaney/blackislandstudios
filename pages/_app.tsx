@@ -6,6 +6,8 @@ import Head from "next/head";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 
+import "../public/css/global.css";
+
 const theme = createMuiTheme({
     overrides: {
         MuiMenu: {
@@ -14,9 +16,18 @@ const theme = createMuiTheme({
                 top: "50px !important",
             },
         },
+        MuiTypography: {
+            root: {
+                color: "#444",
+            },
+            h3: {
+                fontFamily: "'Raleway', sans-serif",
+                fontWeight: "bold",
+            },
+        },
     },
     typography: {
-        fontFamily: "'Lato',Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif",
+        fontFamily: "'Open Sans',sans-serif",
         fontWeightLight: 300,
         fontWeightRegular: 400,
         fontWeightMedium: 500,
@@ -39,7 +50,7 @@ const App: React.FC<AppProps> = (props: AppProps) => {
     return (
         <>
             <Head>
-                <title>Black Island Audio</title>
+                <title>Black Island Studios</title>
                 <meta content="minimum-scale=1, initial-scale=1, width=device-width" name="viewport" />
             </Head>
             <ThemeProvider theme={theme}>

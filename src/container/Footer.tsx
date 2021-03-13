@@ -4,57 +4,58 @@ import * as React from "react";
 
 import {
     Box,
+    Container,
     Grid,
     Link,
     Typography,
 } from "@material-ui/core";
 
 const Footer: React.FC = () => (
-    <Box style={{ color: "white" }}>
+    <Box>
         <Grid container>
             {/* @ts-expect-error: no overload matches this call */}
-            <Box component={Grid} container item p={4} style={{ background: "#222" }} xs={12}>
-                <Grid component={Link} container href="https://blackisland.io" item spacing={2} style={{ color: "white", textDecoration: "unset" }} xs={6}>
-                    <Grid item>
-                        <img
-                            alt="Black Island Studio"
-                            height={100}
-                            src="/logo-white.png"
-                            width={100}
-                        />
-                    </Grid>
-                    <Grid item style={{ marginTop: "auto", marginBottom: "auto" }}>
-                        <Typography variant="body2">A division of</Typography>
-                        <Typography variant="h5">Black Island Studios</Typography>
-                    </Grid>
-                </Grid>
-                <Grid container item md={6} spacing={4} style={{ alignItems: "center", alignContent: "center" }} xs={6}>
+            <Box p={4} style={{ background: "#f9f9f9", width: "100%" }}>
+                <Container maxWidth="lg">
                     <Grid container item xs={12}>
-                        <Grid item xs={12}>
-                            <Typography>6919 W Broward Blvd</Typography>
+                        <Grid component={Link} container href="/" item spacing={2} xs={6}>
+                            <Grid item>
+                                <img
+                                    alt="Black Island Studio"
+                                    height={112}
+                                    src="/img/logos/logo-horizontal.png"
+                                    width={248}
+                                />
+                            </Grid>
                         </Grid>
-                        <Grid item xs={12}>
-                            <Typography>Suite 107</Typography>
-                        </Grid>
-                        <Grid item xs={12}>
-                            <Typography>Plantation, FL 33317</Typography>
+                        <Grid container item md={6} spacing={4} style={{ alignItems: "center", alignContent: "center" }} xs={6}>
+                            <Grid container item xs={12}>
+                                <Grid item xs={12}>
+                                    <Typography>6919 W Broward Blvd</Typography>
+                                </Grid>
+                                <Grid item xs={12}>
+                                    <Typography>Suite 107</Typography>
+                                </Grid>
+                                <Grid item xs={12}>
+                                    <Typography>Plantation, FL 33317</Typography>
+                                </Grid>
+                            </Grid>
+                            <Grid container item spacing={1} xs={12}>
+                                <Grid item xs={12}>
+                                    <Typography style={{ fontWeight: "bold" }}>‪info@blackisland.io</Typography>
+                                </Grid>
+                            </Grid>
                         </Grid>
                     </Grid>
-                    <Grid container item spacing={1} xs={12}>
-                        <Grid item xs={12}>
-                            <Typography>‪info@blackisland.io</Typography>
-                        </Grid>
-                    </Grid>
-                </Grid>
+                </Container>
             </Box>
             {/* @ts-expect-error: no overload matches this call */}
-            <Box component={Grid} item p={2} style={{ textAlign: "center", background: "#111" }} xs={12}>
+            <Box component={Grid} item p={2} style={{ textAlign: "center", background: "#f1f1f1" }} xs={12}>
                 <p>
                     © Copyright
                     {" "}
                     {new Date().getFullYear()}
                     {" "}
-                    <b><a href="https://blackisland.io" style={{ textDecoration: "unset", color: "#3EC1D5" }}>Black Island Studios.</a></b>
+                    <b><a href="https://blackisland.io" style={{ textDecoration: "unset", color: "#444444" }}>Black Island Studios.</a></b>
                     {" "}
                     All Rights Reserved.
                 </p>
