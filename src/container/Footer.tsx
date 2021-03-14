@@ -13,7 +13,6 @@ import {
 const Footer: React.FC = () => (
     <Box>
         <Grid container>
-            {/* @ts-expect-error: no overload matches this call */}
             <Box p={4} style={{ background: "#f9f9f9", width: "100%" }}>
                 <Container maxWidth="lg">
                     <Grid container item xs={12}>

@@ -5,8 +5,6 @@ import {
     Typography,
 } from "@material-ui/core";
 
-import styled from "styled-components";
-
 export interface CarouselProps {
     photos: {
         imageUrl: string;
