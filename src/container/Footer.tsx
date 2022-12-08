@@ -16,7 +16,7 @@ const Footer: React.FC = () => (
             <Box p={4} style={{ background: "#f9f9f9", width: "100%" }}>
                 <Container maxWidth="lg">
                     <Grid container item xs={12}>
-                        <Grid component={Link} container href="/" item spacing={2} xs={6}>
+                        <Grid component={Link} container href="/" item md={6} spacing={2} xs={12}>
                             <Grid item>
                                 <img
                                     alt="Black Island Studio"
@@ -26,16 +26,13 @@ const Footer: React.FC = () => (
                                 />
                             </Grid>
                         </Grid>
-                        <Grid container item md={6} spacing={4} style={{ alignItems: "center", alignContent: "center" }} xs={6}>
+                        <Grid container item md={6} spacing={4} style={{ alignItems: "center", alignContent: "center" }} xs={12}>
                             <Grid container item xs={12}>
                                 <Grid item xs={12}>
-                                    <Typography>6919 W Broward Blvd</Typography>
+                                    <Typography>23 Vixen Rd</Typography>
                                 </Grid>
                                 <Grid item xs={12}>
-                                    <Typography>Suite 107</Typography>
-                                </Grid>
-                                <Grid item xs={12}>
-                                    <Typography>Plantation, FL 33317</Typography>
+                                    <Typography>Trumbull, CT 06611</Typography>
                                 </Grid>
                             </Grid>
                             <Grid container item spacing={1} xs={12}>
